@@ -1,0 +1,556 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+body {
+    background: #000;
+}
+
+.container {
+    background: url("/images/bg.jpg");
+    background-position: center center;
+    background-size: max(1300px, 100vw);
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh;
+}
+
+.netflixbg {
+    top: 0%;
+    position: absolute;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+
+}
+
+.buttons {
+    max-width: 76vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    position: relative;
+    z-index: 10;
+    gap: 20px;
+}
+
+.buttons img {
+    height: 5.7rem;
+    width: 9rem;
+}
+
+.btn {
+    display: flex;
+    gap: 20px;
+}
+
+.btn1 {
+    background: transparent;
+    width: 7rem;
+    height: 2.1rem;
+    border-radius: 5px;
+}
+
+.btn1 option {
+    color: black;
+}
+
+.btn2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E50914;
+    width: 4.8rem;
+    height: 2.1rem;
+    border-radius: 7px;
+
+}
+
+.btn2 a {
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 6px 14px;
+}
+
+.btn2:hover {
+    background-color: rgb(193, 17, 25);
+}
+
+.main_container {
+    height: 88%;
+    display: flex;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+    width: 100%;
+
+}
+
+.main h1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 70px;
+}
+
+.p1 {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.p2 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.create {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 17px;
+    justify-content: center;
+}
+
+.create input {
+    position: relative;
+    font-size: 20px;
+    padding-left: 10px;
+    width: 25rem;
+    height: 3.5rem;
+    border-radius: 7px;
+    background-color: rgba(15, 15, 15, 0.792);
+    border: 1px solid rgba(168, 167, 167, 0.516);
+}
+
+.arrow {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #E50914;
+    width: 12.2rem;
+    height: 55px;
+    font-size: 1.7rem;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.arrow:hover {
+    background-color: rgb(193, 17, 25);
+}
+
+.arrow a {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.break {
+    width: 100%;
+    height: 10px;
+    background: #232323;
+}
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+
+.tv-text {
+    width: 36vw;
+}
+
+.tv-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.tv-text p {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.video {
+    position: relative;
+}
+
+.video img {
+    width: 36vw;
+    position: relative;
+    z-index: 10;
+}
+
+.video-1 {
+    position: absolute;
+    max-width: 73%;
+    max-height: 61%;
+    z-index: -2;
+    top: 20%;
+    left: 13%;
+}
+
+.video-1 video {
+    width: 100%;
+}
+
+/* ++++++++++++++++ */
+.second {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 4rem;
+
+}
+
+.download {
+    width: 40vw;
+}
+
+.download h3 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.download p {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.stranger {
+    max-width: 500px;
+}
+
+.stranger-img-1 {
+    width: 100%;
+}
+
+.video-2 {
+    position: relative;
+}
+
+.video-3 {
+    position: absolute;
+    max-width: 63%;
+    max-height: 47%;
+    z-index: -2;
+    top: 9%;
+    left: 19%;
+}
+
+.video-3 video {
+    width: 100%;
+}
+
+.video-2 img {
+    width: 36vw;
+    position: relative;
+    z-index: 10;
+}
+
+.info {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about h2 {
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.flexible {
+    display: flex;
+    width: 75vw;
+    flex-direction: column;
+}
+
+.bg-light {
+    background-color: #2D2D2D;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    transition: background-color 0.55s ease 0s;
+}
+
+.flex:hover {
+    background-color: rgba(163, 163, 163, 0.46);
+}
+
+.f-s {
+    font-size: 23px;
+}
+
+.flex2 {
+    margin-top: 1px;
+    display: none;
+}
+
+.h3 {
+    font-size: 24px;
+    font-weight: 400;
+    padding: 22px 24px;
+}
+
+.input-1 {
+    margin: 3rem 0rem;
+    display: flex;
+    justify-content: center;
+}
+
+.input-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-3 {
+    margin-top: 0.4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+}
+
+.input-3 input {
+    font-size: 20px;
+    padding-left: 10px;
+    height: 3.5rem;
+    width: 22rem;
+    border-radius: 7px;
+    background-color: rgba(15, 15, 15, 0.792);
+    border: 1px solid rgba(168, 167, 167, 0.516);
+    margin: 10px 0px;
+}
+
+.arrow-1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #E50914;
+    width: 13rem;
+    height: 3.5rem;
+    font-size: 1.7rem;
+    border-radius: 7px;
+    margin: 10px 0px;
+    cursor: pointer;
+
+
+}
+
+.arrow-1:hover {
+    background-color: rgb(193, 17, 25);
+}
+
+.arrow-1 a {
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.contact {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 0.8rem;
+}
+
+.contact-1 {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+}
+
+.contact-1 h3 {
+    color: #888585;
+}
+
+.contact-1 h3 u {
+    color: #888585;
+}
+
+.contact-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.con-1 {
+    height: 10rem;
+    width: 18rem;
+}
+
+.con-1 li {
+    list-style: none;
+    margin-bottom: 0.9rem;
+}
+
+.con-1 li a {
+    color: #AAAAAA;
+    font-size: 15px;
+}
+
+.lang1 h3 {
+    margin: 20px 0px;
+    font-size: 18px;
+    color: #AAAAAA;
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        height: 80vh;
+    }
+
+    .buttons {
+        max-width: 90vw;
+    }
+
+    .first {
+        flex-direction: column;
+    }
+
+    .tv-text {
+        width: 80vw;
+    }
+
+    .tv-text h1 {
+        text-align: center;
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    .tv-text p {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .video img {
+        width: 63vw;
+    }
+
+    .second {
+        flex-direction: column;
+    }
+
+    .download {
+        width: 88vw;
+    }
+
+    .download h3 {
+        text-align: center;
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    .download p {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .video-2 img {
+        width: 55vw;
+    }
+
+    .about h2 {
+        text-align: center;
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    .input-2 {
+        width: 90vw;
+    }
+
+    .input-2 h3 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+    .container {
+        height: 80vh;
+    }
+
+    .buttons img {
+        height: 2rem;
+        width: 6rem;
+    }
+
+    .main_container {
+        height: 88%;
+    }
+
+    .main h1 {
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+
+    .p1 {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .p2 {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .create input {
+        width: 80%;
+    }
+
+    .input-3 input {
+        width: 80%;
+    }
+
+    .btn1 {
+        width: 4rem;
+    }
+    .tv-text h1 {
+        font-size: 31px;
+    }
+    .video img {
+        width: 99vw;
+    }
+    .stranger {
+        width: 300px;
+    }
+    .video-2 img {
+        width: 100vw;
+    }
+}
