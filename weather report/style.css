@@ -5,7 +5,7 @@
 }
 
 body {
-    background:url("/images/image2.jpg");
+    background:url("images/image2.jpg");
 }
 
 .container {
